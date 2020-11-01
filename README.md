@@ -15,4 +15,8 @@
  
  # To Do
 - Nothing anymore lol
+
+# Notes
 - If anybody has any suggestions feel free to open up an issue ticket and if it's something I can do then I'll probably do it if i feel like it lol
+- Please keep in mind that I made this thing while on like 2 hours of sleep and being awake for about 16 hours so i was MAD tired lol. if there any issues or things that could have been done better please either open up an issue or make a pull request.
+- I do plan on making this resource better but for now it works as intended so until i have the time/energy to work on it this thing is probably just gonna stay the way it is lol
