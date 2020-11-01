@@ -12,11 +12,13 @@ end
 
 RegisterNetEvent('twp:alert')
 AddEventHandler('twp:alert', function(msg, time)
-	local _player = GetPlayerServerId(GetPlayers())
+    GetPlayers()
+	local _player = GetPlayerServerId(players)
 	TriggerServerEvent('twp:jobcheck', _player, msg, time)
 end)
 
 RegisterNetEvent('twp:alert2')
 AddEventHandler('twp:alert2', function(msg, time)
-	TriggerEvent("vorp:TipRight", msg, time)
+	--TriggerEvent("vorp:TipRight", msg, time)
+    TriggerEvent("vorp:NotifyLeft", 'POLICE', msg, 'generic_textures', ' ', time)
 end)
