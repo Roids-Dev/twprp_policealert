@@ -15,3 +15,4 @@
  
  # To Do
 - Nothing anymore lol
+- If anybody has any suggestions feel free to open up an issue ticket and if it's something I can do then I'll probably do it if i feel like it lol
