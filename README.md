@@ -8,8 +8,8 @@
  # Usage
  - Using this resource is fairly simple. Just place this line where ever you need the police to be alerted
  ```lua
- TriggerClientEvent(twp:alert, source, message, time, jobname) -- For server files
- TriggerEvent(twp:alert, message, time, jobname) -- For client files
+ TriggerClientEvent('twp:alert', source, message, time, jobname) -- For server files
+ TriggerEvent('twp:alert', message, time, jobname) -- For client files
  ```
  - Some obvious things: `message` needs to be a string and time how long you want the alert to be visible in seconds(the second to millisecond conversion is baked into the script) and `jobname` should be a string of the name the job shows up as in the db i.e. `police`
  
