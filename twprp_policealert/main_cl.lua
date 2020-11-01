@@ -1,3 +1,8 @@
+-----------------------------------
+-- Made by Roids-Dev/Roids#9759 --
+-----------------------------------
+-- FUNCTIONS --
+-----------------------------------
 function GetPlayers()
     local players = {}
 
@@ -9,16 +14,27 @@ function GetPlayers()
 
     return players
 end
-
+-----------------------------------
+-- /FUNCTIONS --
+-----------------------------------
+-- ALERT 1 --
+-----------------------------------
 RegisterNetEvent('twp:alert')
 AddEventHandler('twp:alert', function(msg, time, job)
     GetPlayers()
 	local _player = GetPlayerServerId(players)
 	TriggerServerEvent('twp:jobcheck', _player, msg, time, job)
 end)
-
+-----------------------------------
+-- /ALERT 1 --
+-----------------------------------
+-- ALERT 2 --
+-----------------------------------
 RegisterNetEvent('twp:alert2')
 AddEventHandler('twp:alert2', function(msg, time)
 	--TriggerEvent("vorp:TipRight", msg, time)
     TriggerEvent("vorp:NotifyLeft", 'POLICE', msg, 'generic_textures', ' ', (time*1000))
 end)
+-----------------------------------
+-- /ALERT 2 --
+-----------------------------------
