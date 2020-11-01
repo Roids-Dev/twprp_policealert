@@ -11,10 +11,10 @@ function GetPlayers()
 end
 
 RegisterNetEvent('twp:alert')
-AddEventHandler('twp:alert', function(msg, time)
+AddEventHandler('twp:alert', function(msg, time, job)
     GetPlayers()
 	local _player = GetPlayerServerId(players)
-	TriggerServerEvent('twp:jobcheck', _player, msg, time)
+	TriggerServerEvent('twp:jobcheck', _player, msg, time, job)
 end)
 
 RegisterNetEvent('twp:alert2')
