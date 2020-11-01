@@ -18,5 +18,5 @@ end)
 
 RegisterNetEvent('twp:alert2')
 AddEventHandler('twp:alert2', function(msg, time)
-	TriggerEvent("vorp:Tip", msg, time)
+	TriggerEvent("vorp:TipRight", msg, time)
 end)
