@@ -9,5 +9,5 @@ AddEventHandler('twp:jobcheck', function(player, msg, time)
 end)
 
 RegisterCommand('alertdebug', function()
-	TriggerClientEvent('twp:alert2', 'twprp_policealert test', 10000)
+	TriggerClientEvent('twp:alert', 'twprp_policealert test', 10000)
 end)
