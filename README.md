@@ -15,6 +15,11 @@ Job based alert system for RedM servers using the VORP Core framework
  TriggerEvent('twp:alert', message, time, jobname) -- For client files
  ```
  - Some obvious things: `message` needs to be a string and `time` how long you want the alert to be visible in seconds(the second to millisecond conversion is baked into the script) and `jobname` should be a string of the job name as it shows up in the database i.e. `'police'`
+ - Heres a full example for a client and server trigger
+ ```lua
+ TriggerClientEvent('twp:alert', source, 'Robbery at Valentine General Store!', 5, 'police') -- For server files
+ TriggerEvent('twp:alert', 'Robbery at Valentine General Store!', 5, 'police') -- For client files
+ ```
  
  # To Do
 - Add other identifiers to send the alert to(not sure what identifiers to use yet but we'll see)
