@@ -14,7 +14,7 @@ Job based alert system for RedM servers using the VORP Core framework
  TriggerClientEvent('twp:alert', source, message, time, jobname) -- For server files
  TriggerEvent('twp:alert', message, time, jobname) -- For client files
  ```
- - Some obvious things: `message` needs to be a string and `time` how long you want the alert to be visible in seconds(the second to millisecond conversion is baked into the script) and `jobname` should be a string of the name the job shows up as in the db i.e. `police`
+ - Some obvious things: `message` needs to be a string and `time` how long you want the alert to be visible in seconds(the second to millisecond conversion is baked into the script) and `jobname` should be a string of the job name as it shows up in the database i.e. `'police'`
  
  # To Do
 - Add other identifiers to send the alert to(not sure what identifiers to use yet but we'll see)
