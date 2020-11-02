@@ -1,6 +1,11 @@
 -----------------------------------
 -- Made by Roids-Dev/Roids#9759 --
 -----------------------------------
+-----------------------------------
+-- Unless you need to fix something
+-- there is no reason to touch this
+-- Just follow the github README.md
+-----------------------------------
 VORP = exports.vorp_core:vorpAPI()
 -----------------------------------
 -- JOB CHECK --
