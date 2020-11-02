@@ -1,5 +1,8 @@
 # twprp_policealert
- Police alert system for RedM servers using the VORP Core framework
+Job based alert system for RedM servers using the VORP Core framework
+ 
+ # About
+ TLDR You can use this script to send an alert out to everyone with a specific job title i.e. `police`. If you are interested in what is to come for this script then check out *To Do* to see everything I have planned for it!
  
  # Installation
  - Place `twprp_policealert` in your `resources` folder
@@ -14,7 +17,7 @@
  - Some obvious things: `message` needs to be a string and time how long you want the alert to be visible in seconds(the second to millisecond conversion is baked into the script) and `jobname` should be a string of the name the job shows up as in the db i.e. `police`
  
  # To Do
-- Nothing anymore lol
+- Add other identifiers to send the alert to(not sure what identifiers to use yet but we'll see)
 
 # Notes
 - If anybody has any suggestions feel free to open up an issue ticket and if it's something I can do then I'll probably do it if i feel like it lol
