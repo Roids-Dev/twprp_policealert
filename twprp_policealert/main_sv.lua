@@ -6,6 +6,11 @@
 -- there is no reason to touch this
 -- Just follow the github README.md
 -----------------------------------
+local VorpCore = {}
+
+TriggerEvent("getCore",function(core)
+    VorpCore = core
+end)
 VORP = exports.vorp_core:vorpAPI()
 -----------------------------------
 -- JOB CHECK --
