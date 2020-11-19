@@ -36,7 +36,6 @@ end)
 -----------------------------------
 RegisterNetEvent('twp:alert2')
 AddEventHandler('twp:alert2', function(msg, time, job)
-    --TriggerEvent("vorp:TipRight", msg, time)
     TriggerEvent("vorp:NotifyLeft", job, msg, 'generic_textures', 'star', (time*1000))
 end)
 -----------------------------------
